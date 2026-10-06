@@ -53,7 +53,7 @@ pip install -r requirements.txt
 Run the default experiment:
 
 ```bash
-python main.py
+python visualize_policy.py
 ```
 
 By default, the program trains:
@@ -75,25 +75,25 @@ python main.py --algo qlearning
 Run multiple algorithms:
 
 ```bash
-python main.py --algo qlearning sarsa mc
+python visualize_policy.py --algo qlearning sarsa mc
 ```
 
 ### Change the number of training episodes
 
 ```bash
-python main.py --episodes 20000
+python visualize_policy.py --episodes 20000
 ```
 
 ### Change the maximum number of steps
 
 ```bash
-python main.py --max_steps 1000
+python visualize_policy.py --max_steps 1000
 ```
 
 ### Set a random seed
 
 ```bash
-python main.py --seed 42
+python visualize_policy.py --seed 42
 ```
 
 ## Output
