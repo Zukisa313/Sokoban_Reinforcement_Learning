@@ -29,7 +29,7 @@ The environment uses a fixed puzzle configuration so that the different algorith
 
 ```text
 .
-├── main.py                 # Train and evaluate agents
+├── visualize_policy.py                 # Train and evaluate agents
 ├── sokoban_env.py          # Sokoban environment
 ├── algorithms.py           # RL agent implementations
 ├── sprite_renderer.py      # Game rendering and GIF generation
@@ -69,7 +69,7 @@ for **12,000 episodes**.
 ### Run a specific algorithm
 
 ```bash
-python main.py --algo qlearning
+python visualize_policy.py --algo qlearning
 ```
 
 Run multiple algorithms:
