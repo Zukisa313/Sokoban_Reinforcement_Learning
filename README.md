@@ -1,4 +1,4 @@
-Sokoban with Reinforcement Learning
+# Sokoban with Reinforcement Learning
 
 A reinforcement learning project for solving **multi-box Sokoban** using tabular reinforcement learning algorithms.
 
