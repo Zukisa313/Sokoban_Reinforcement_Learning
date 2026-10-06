@@ -34,6 +34,7 @@ The environment uses a fixed puzzle configuration so that the different algorith
 ├── algorithms.py           # RL agent implementations
 ├── sprite_renderer.py      # Game rendering and GIF generation
 └── outputs/                # Generated solutions and visualizations
+└── assets/                 # env assets
 ```
 
 ## Installation
